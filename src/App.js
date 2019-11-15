@@ -18,9 +18,10 @@ class App extends React.Component() {
   render() {
     return (
       <div className="app">
-        <Route exact path='/' render={() => (
-          <Welcome />
-        )} />
+        <Header />
+        <Welcome />
+
+        
         <Route path='/resteraunt' render={() => (
           <Resteraunt />
         )} />
@@ -28,6 +29,8 @@ class App extends React.Component() {
         <Route path='/nightclub' render={() => (
           <Nightclub />
         )} />
+
+       
 
       </div>
     );
