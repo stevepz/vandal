@@ -23,8 +23,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Header />
-        <Welcome />
+        {/* <Header /> */}
+        <Route exact path='/' render={() => (
+          <Welcome />
+        )} />
 
         
         <Route path='/resteraunt' render={() => (
