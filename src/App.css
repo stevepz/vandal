@@ -22,6 +22,7 @@ a{
   transition-property: all;
   transition-duration: .6s;
   transition-timing-function: ease; */
+  
 }
 
 .rest-name, .night-name {
@@ -36,8 +37,40 @@ a{
   color: #A61F16
 } */
 
-.night-name:hover{
+
+/* .night-name:hover{
   color: #A61F16;
+} */
+.night-name:hover,
+.night-name:active {
+  letter-spacing: 5px;
+}
+
+.night-name::after,
+.night-name::before {
+  backface-visibility: hidden;
+  border: 1px solid white;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.night-name:hover::after,
+.night-name:hover::before {
+  backface-visibility: hidden;
+  border-color: white;
+  transition: width 350ms ease-in-out;
+  width: 95%;
+}
+
+.night-name:hover::before {
+  bottom: auto;
+  top: 0;
+  width: 95%;
 }
 
 .rest-name:hover,
@@ -71,7 +104,6 @@ a{
   top: 0;
   width: 95%;
 }
-
 
 /* ==========================Header Styling======================== */
 header {
