@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Link, withRouter } from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 
 
 
@@ -73,9 +74,9 @@ export default function Resteraunt() {
           </div>
         </div>
 
-      </div >
-
-    </div >
+      </div>
+      <Footer />
+    </div>
 
   )
 
