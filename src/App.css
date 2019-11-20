@@ -140,3 +140,38 @@ header a:hover {
   color: #ccbfab;
 }
 
+
+#business-image{
+  margin: 0;
+  width: 100%;
+}
+
+#business-img{
+  width: 100%;
+}
+
+#resteraunt-about{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+#resteraunt-img{
+  width: 100%;
+}
+
+
+#resteraunt-chef{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+#chef-img{
+    width: 100%;
+  }
+
+#art-area-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+#art-img{
+      width: 25%;
+    }
+  
