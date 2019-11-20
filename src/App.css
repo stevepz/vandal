@@ -486,6 +486,20 @@ height:3em;
 
  {
 
+  #logo-img {
+   height: 60%;
+   position: relative;
+   top:10%;
+    
+  }
+  
+
+
+  #logo{
+    height: 60%;
+    top:15%;
+  }
+
   body{
     width: 100%;
     object-fit: cover;
@@ -495,13 +509,26 @@ height:3em;
 }
 
 
+
+#business-page{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#business-img{
+  margin: 0;
+}
+
+
+
 header{
-  visibility: hidden;
+  display:none;
 }
 
 
 #headerham-div{
- display: block;
+  display:block;
+  
 }
 
 
