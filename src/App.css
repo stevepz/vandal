@@ -113,6 +113,9 @@ header {
   display: flex;
   background-color: black;
   vertical-align: middle;
+  transform: translateY(-101px);
+  animation: header 2s ease-in-out forwards;
+  z-index: .3;
 }
 
 #header-div {
@@ -127,17 +130,216 @@ header {
 header a {
   text-decoration: none;
   color: white;
-  transition-timing-function: ease-in-out;
+  /* transition-timing-function: ease-in-out; */
   transition: .50s;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
   letter-spacing: 2px;
   font-weight: 700;
-  
 }
 
 header a:hover {
   color: #ccbfab;
+}
+
+@keyframes header {
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+/* Form Section Div */
+#inquiries-section {
+  /* border: 2px solid pink; */
+  background-color: rgb(37, 36, 36);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#inquiries-leftside {
+  /* border: 2px solid blue; */
+  color: white;
+  width: 50%;
+  padding: 4vw;
+}
+
+#inquiries-rightside {
+  /* border: 2px solid orange; */
+  width: 50%;
+}
+
+#inquiries-rightside img {
+  width: 49vw;
+  height: 100vh;
+}
+
+#form-h2 {
+  letter-spacing: 4px;
+  font-size: 2em;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+  /* border: 2px solid pink; */
+}
+
+#form-instructions {
+  /* border: 2px solid blue; */
+  color: grey;
+
+}
+
+#the-form {
+  /* border: 2px solid orange; */
+  padding: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  /* height: 200px; */
+}
+
+#form-line1 {
+  display: flex;
+}
+
+#form-button {
+  /* border: 2px solid purple; */
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+#button-div {
+  /* border: 2px solid purple; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#form-line1 {
+  margin-bottom: 15px;
+}
+
+#firstname {
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+#lastname {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#form-line2 {
+  margin-bottom: 15px;
+}
+
+#email {
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#phone {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#form-line3 {
+  margin-bottom: 15px;
+}
+
+#date {
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+#size {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+
+}
+
+#additional {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+}
+
+/* Form Section Div above */
+
+/* Footer Below */
+
+#footer-div {
+  width: 100%;
+  height: 7vh;
+  background-color: black;
+  display: flex;
+}
+
+#social{
+  /* border: 2px solid white; */
+  width: 20%;
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+}
+
+
+#tao{
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 11px;
+letter-spacing: 2px;
+font-weight: 700;
+}
+
+#foot-address {
+  /* border: 2px white solid; */
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+}
+
+#foot-address-p {
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 11px;
+letter-spacing: 2px;
+font-weight: 700;
+}
+
+
+#email-mailing {
+  /* border: 2px white solid; */
+  width: 25%;
+  display: flex;
+  /* align-items: center; */
+  padding-left: 6%;
+  background-color: rgb(37, 36, 36);
+  margin-bottom: 20px;
+
+}
+
+
+#email-mailing-p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  padding-top: 15px;
 }
 
 #headerham-div{
@@ -422,4 +624,3 @@ header{
 }
 
 }
-
