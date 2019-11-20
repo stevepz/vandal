@@ -60,7 +60,7 @@ export default function Resteraunt() {
 
 
         <div id="gallery-area">
-          <p id="gallery-head" className=" about">Gallery</p>
+          <p id="gallery-head" className="gallery-head">Gallery</p>
           <div id="gallery-area-img">
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-lauramvila-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/042117-Vandal-Restaurant-Shoot-289-for-website.jpg" alt="gallery" />

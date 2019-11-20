@@ -142,13 +142,11 @@ header a:hover {
 
 
 #business-image{
-
   background-color: black;
-
 }
 
 #business-img{
-
+  width: 100;
 }
 
 #logo{
@@ -195,7 +193,8 @@ grid-row-gap: 0;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
+
 }
 #text-about-container p{
 padding-right: 15%;
@@ -223,10 +222,6 @@ text-align: center;
   
  }
 
-
-
-
-
  #resteraunt-chef{
   margin-top: -7.2em;
  }
@@ -235,7 +230,7 @@ text-align: center;
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.2em;
  }
 
 .text-chef-container p{
@@ -245,11 +240,14 @@ padding-top: 3%;
 text-align: center;
 }
 
-
-
-
-
-
+.art-head{
+  margin: 0;
+  color: white;
+  background-color: black;
+font-size: 1.5em;
+text-align: center;
+height:3em;
+}
 
 #art-area-img{
   margin-top: -1.75em;
@@ -260,6 +258,16 @@ text-align: center;
 .art-imgs{
       width: 100%;
     }
+
+.gallery-head{
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+  text-align: center;
+  height:2em;
+    }
+
 #gallery-area-img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
