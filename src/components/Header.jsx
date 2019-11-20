@@ -43,7 +43,7 @@ export default function Header() {
         </nav>
         <a href='#main-menu-toggle'
           className='backdrop'
-          tabindex="-1"
+          tabIndex="-1"
           aria-hidden='true'
           hidden></a>
       </div>
