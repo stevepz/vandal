@@ -23,12 +23,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Header />
         <Route exact path='/' render={() => (
           <Welcome />
         )} />
 
-        
+
         <Route path='/resteraunt' render={() => (
           <Resteraunt />
         )} />
@@ -37,7 +36,7 @@ class App extends React.Component {
           <Nightclub />
         )} />
 
-       
+
 
       </div>
     );

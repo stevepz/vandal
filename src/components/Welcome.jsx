@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Welcome() {
   return (
+    
     <div className='landing-pg'>
       <img id='vandal-logo' src={'https://www.vandalnewyork.com/wp-content/themes/vandal/images/vandal-logo.png'} alt='vandal logo' height='auto' />
       <div className='display-name'>

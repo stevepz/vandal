@@ -1,7 +1,7 @@
 
 .landing-pg {
   background-color: black;
-  height: 120vh;
+  height: 1000vh;
 }
 
 a{
@@ -18,6 +18,11 @@ a{
   justify-content: center;
   justify-content: space-around;
   margin-top: 40px;
+  /* box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease; */
+  
 }
 
 .rest-name, .night-name {
@@ -28,13 +33,79 @@ a{
   font-size: 30px
 }
 
-.rest-name:hover{
+/* .rest-name:hover{
   color: #A61F16
+} */
+
+
+/* .night-name:hover{
+  color: #A61F16;
+} */
+.night-name:hover,
+.night-name:active {
+  letter-spacing: 5px;
 }
 
-.night-name:hover{
-  color: #A61F16;
+.night-name::after,
+.night-name::before {
+  backface-visibility: hidden;
+  border: 1px solid white;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
 }
+
+.night-name:hover::after,
+.night-name:hover::before {
+  backface-visibility: hidden;
+  border-color: white;
+  transition: width 350ms ease-in-out;
+  width: 95%;
+}
+
+.night-name:hover::before {
+  bottom: auto;
+  top: 0;
+  width: 95%;
+}
+
+.rest-name:hover,
+.rest-name:active {
+  letter-spacing: 5px;
+}
+
+.rest-name::after,
+.rest-name::before {
+  backface-visibility: hidden;
+  border: 1px solid white;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.rest-name:hover::after,
+.rest-name:hover::before {
+  backface-visibility: hidden;
+  border-color: white;
+  transition: width 350ms ease-in-out;
+  width: 95%;
+}
+
+.rest-name:hover::before {
+  bottom: auto;
+  top: 0;
+  width: 95%;
+}
+
+/* ==========================Header Styling======================== */
 header {
   /* border: 2px solid black; */
   width: 100%;
@@ -269,4 +340,287 @@ font-weight: 700;
   letter-spacing: 2px;
   font-weight: 700;
   padding-top: 15px;
+}
+
+#headerham-div{
+  display:none;
+}
+#business-image{
+  background-color: black;
+}
+
+#business-img{
+  width: 100;
+}
+
+#logo{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color:transparent;
+  padding: 0;
+  z-index: .2;
+}
+#logo-img{
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  z-index: .2;
+}
+
+
+#resteraunt-about{
+margin: 0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-row-gap: 0;
+}
+#resteraunt-img{
+  width: 100%;
+}
+
+
+#resteraunt-chef{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 0;
+  }
+#chef-img{
+    width: 100%;
+    height: 100%;
+  }
+
+#text-about-container{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+
+}
+#text-about-container p{
+padding-right: 15%;
+padding-left: 15%;
+padding-top: 3%;
+text-align: center;
+}
+
+ .menu-button-container{
+   display: flex;
+   justify-content: center;
+ }
+
+ .menu-button{
+   margin-top: -4em;
+   height:2em;
+   width: 3em;
+  z-index: 1;
+  font-size: 3em;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  padding-top:.5em;
+  
+ }
+
+ #resteraunt-chef{
+  margin-top: -7.2em;
+ }
+
+ .text-chef-container{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+ }
+
+.text-chef-container p{
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 3%;
+text-align: center;
+}
+
+.art-head{
+  margin: 0;
+  color: white;
+  background-color: black;
+font-size: 1.5em;
+text-align: center;
+height:3em;
+}
+
+#art-area-img{
+  margin-top: -1.75em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+.art-imgs{
+      width: 100%;
+    }
+
+.gallery-head{
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+  text-align: center;
+  height:2em;
+    }
+
+#gallery-area-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+.gallery-imgs{
+      width: 100%;
+    }
+
+/* ==================media queries=============================== */
+@media only screen and (max-width: 414px)
+
+ {
+
+  body{
+    width: 100%;
+    object-fit: cover;
+  }
+.landing-pg{
+  width: 375px;
+}
+
+
+header{
+  visibility: hidden;
+}
+
+
+#headerham-div{
+ display: block;
+}
+
+
+#vandal-logo{
+  object-fit: cover;
+  width: 375px;
+}
+
+
+.menu-toggle {
+  display: inline-block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color: #333;
+}
+
+.bars {
+  width: 40px;
+  height: 5px;
+  background-color: black;
+  margin: 6px auto;
+}
+
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: rgb(123, 18, 18);
+}
+
+.main-menu {
+  position: absolute;
+  display: none;
+  left: -200px;
+  top: 0;
+  overflow-y: scroll;
+  overflow-x: visible;
+  transition: left 0.3s ease,
+  box-shadow 0.3s ease;
+  z-index: 999;
+  
+  
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0 ;
+  padding: 3em ;
+  box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  width: 100%;
+  background: #1f1d20;
+}
+
+.main-menu a {
+  display: block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color:white;
+  text-decoration: none;
+}
+
+.main-menu li:first-child a {
+  border-top: 1px solid #383838;
+}
+
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background: #333;
+  text-decoration: underline;
+}
+
+.main-menu .menu-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop{
+  position: absolute;
+  display: block;  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(255,255,255,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop{
+    position: fixed;
+  }
+
+}
+
 }
