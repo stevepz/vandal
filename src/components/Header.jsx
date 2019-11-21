@@ -7,6 +7,11 @@ export default function Header() {
   return (
     <>
       <header>
+        <div>
+          <Link to="/">
+            <img id="logo-header" src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/nav-logo.svg" />
+          </Link>
+        </div>
         <div id='header-div'>
           <a href="https://www.vandalnewyork.com/reservations/">RESERVATIONS</a>
           <a href="https://www.vandalnewyork.com/special-events/">SPECIAL EVENTS</a>

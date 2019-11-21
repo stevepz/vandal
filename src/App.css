@@ -2,6 +2,7 @@
 .landing-pg {
   background-color: black;
   height: 100vh;
+  padding-left: 8%;
 }
 
 a{
@@ -15,8 +16,10 @@ a{
 
 .display-name{
   display: flex;
+  width: 50%;
+  margin: 20%;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 40px;
   /* box-sizing: inherit;
   transition-property: all;
@@ -373,10 +376,10 @@ font-weight: 700;
 
 #logo{
   position: absolute;
-  top: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
+  top: 30%;
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
   background-color:transparent;
   padding: 0;
   z-index: .2;
@@ -395,6 +398,7 @@ margin: 0;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-row-gap: 0;
+background-color: #252424;
 }
 
 #resteraunt-img{

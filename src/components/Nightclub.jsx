@@ -13,14 +13,16 @@ export default function Nightclub() {
       <div id="business-page">
         <div id="business-image">
           <img id="business-img"
-            src="https://www.vandalnewyork.com/wp-content/uploads/2016/03/TAO1422library-1.jpg" alt="resteruant" />
+            src="https://www.vandalnewyork.com/wp-content/uploads/2016/03/TAO1424cellar_bar-2.jpg" alt="resteruant" />
         </div>
         <div id="logo">
           <img id="logo-img"
             src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/nav-logo.svg" alt="Logo" />
         </div>
         <div id="restaurant-about">
-          <img id="restaurant-img" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/TAO1401exterior.jpg" alt="resteruant" />
+          <div id="resteraunt-img-div">
+            <img id="resteraunt-img" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/TAO1401exterior.jpg" alt="resteruant" />
+          </div>
           <div id="text-about-container">
             <p id="about-head" className="about">ABOUT</p>
             <p id="about-text" className="about-text">Located on Bowery, a street that dates back to the 17th century, Vandal is the latest restaurant/nightclub by the Tao Group Hospitality and Chef Chris Santos. Vandal celebrates the art, architecture, and food of global culture from New York to Vietnam to Barcelona and beyond, as well as the history and culture of the restaurant’s Lower East Side location. The two-level space includes a bar/lounge, restaurant, garden dining area, private dining room, and cellar nightclub.</p>
