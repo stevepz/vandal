@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import NightForm from './NightForm';
 import Footer from './Footer';
 import Header from './Header';
+import CustomSlider from './CustomSlider';
 
 
 export default function Nightclub() {
@@ -50,7 +51,8 @@ export default function Nightclub() {
 
         <div id="gallery-area">
           <p id="gallery-head" className="gallery-head">Gallery</p>
-          <div id="gallery-area-img">
+          <CustomSlider />
+          {/* <div id="gallery-area-img">
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-lauramvila-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/042117-Vandal-Restaurant-Shoot-289-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-nigelbarker-for-website.jpg" alt="gallery" />
@@ -58,12 +60,12 @@ export default function Nightclub() {
             {/* <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
-            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" /> */}
-          </div>
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" /> }
+        </div> */}
         </div>
       </div>
       <Footer />
-    </div>
+    </div >
   )
 
 }
