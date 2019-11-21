@@ -487,23 +487,23 @@ height:3em;
  {
 
   #logo-img {
-   height: 60%;
-   position: relative;
-   top:10%;
+   padding: 60px;
+   width: 322px;
+   height: 94px;
     
   }
   
 
 
   #logo{
-    height: 60%;
-    top:15%;
+    height: 50%;
+    margin-top:15%;
   }
 
   body{
-    width: 100%;
-    object-fit: cover;
+    margin: 0;
   }
+
 .landing-pg{
   width: 375px;
 }
@@ -511,24 +511,106 @@ height:3em;
 
 
 #business-page{
-  display: grid;
-  grid-template-columns: 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+
+  
 }
+
+#resteraunt-about{
+  display: block;
+}
+
+
 
 #business-img{
-  margin: 0;
+  width:414px;
+  object-fit: cover;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
+#resteraunt-img{
+  width:414px;
+  object-fit: cover;
+
+}
+
+#about-head{
+  margin: 0;
+  text-align:center;
+  height: 36px;
+  font-family: Avenir;
+  font-size: 26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 11px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#text-about-container p{
+  margin: 0;
+  padding: 30px;
+  background-color: #1f1d20;
+}
 
 
 header{
   display:none;
 }
 
+#about-text{
+  height:500px;
+
+}
+
+#chef-head{
+  margin: 0;
+  padding: 25%;
+  height: 22px;
+  font-family: Avenir;
+  font-size:26px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 6.77px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+#resteraunt-chef{
+  display: block;
+}
+
+#chef-img{
+  width: 414px;
+  height: 420px;
+
+}
+
+.text-chef-container p{
+  background-color: #1f1d20;
+  margin:0;
+  padding: 30px;
+
+}
+
+.menu-button{
+  width: 45%;
+  height: 69px;
+  border: solid 3px #ffffff;
+  letter-spacing: 1.48px;  
+}
+
+
 
 #headerham-div{
   display:block;
-  
 }
 
 
@@ -649,5 +731,14 @@ header{
   }
 
 }
+
+
+/* =========resizing images============ */
+
+img{
+  width: 414px;
+}
+
+
 
 }
