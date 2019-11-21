@@ -20,7 +20,7 @@ export default function Restaurant() {
           <img id="logo-img"
             src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/nav-logo.svg" alt="Logo" />
         </div>
-        <div id="resteraunt-about">
+        <div id="restaurant-about">
           <div id="resteraunt-img-div">
             <img id="resteraunt-img" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/TAO1401exterior.jpg" alt="resteruant" />
           </div>
