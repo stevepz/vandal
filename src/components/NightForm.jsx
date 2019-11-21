@@ -31,8 +31,11 @@ export default function NightForm() {
           <button id="form-button">MAKE REQUEST</button>
         </div>
       </div>
-     
-
+      <div id="inquiries-rightside">
+        <img src="https://www.vandalnewyork.com/wp-content/uploads/2016/03/TAO1427cellar_lounge_overall-2.jpg" />
+      </div>
     </div>
+
+
   )
 }
