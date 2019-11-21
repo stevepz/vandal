@@ -162,7 +162,7 @@ header a:hover {
 
   display: grid;
 grid-template-columns: 1fr 1fr;
-margin-top: -3.2em;
+/* margin-top: -3.2em; */
 
 
 }
@@ -396,8 +396,11 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 grid-row-gap: 0;
 }
-#restaurant-img{
+
+#resteraunt-img{
   width: 100%;
+  height: 85vh; 
+
 }
 
 
@@ -406,6 +409,8 @@ grid-row-gap: 0;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 0;
   }
+
+
 #chef-img{
     width: 100%;
     height: 100%;
@@ -416,22 +421,31 @@ grid-row-gap: 0;
   color: white;
   text-align: center;
   font-size: 1.2em;
-
+  height: 85vh; 
 }
+
+
 #text-about-container p{
 padding-right: 15%;
 padding-left: 15%;
-padding-top: 3%;
+padding-top: 8%;
 text-align: center;
+line-height: 30px;
+}
+
+#about-head {
+  font-size: 2em;
 }
 
  .menu-button-container{
    display: flex;
    justify-content: center;
+   background-color:rgb(37, 36, 36);
+   margin: 0;
  }
 
  .menu-button{
-   margin-top: -4em;
+   /* margin-top: -4em; */
    height:2em;
    width: 3em;
   z-index: 1;
@@ -441,10 +455,13 @@ text-align: center;
   border: 2px solid white;
   text-align: center;
   padding-top:.5em;
+  background-color:rgb(37, 36, 36);
+  border: .2em solid white;
+  margin: 0;
   
  }
  .club-menu-button{
-  margin-top: -1.5em;
+  /* margin-top: -1.5em; */
   height:2em;
   width: 3em;
  z-index: 1;
@@ -455,11 +472,15 @@ text-align: center;
  text-align: center;
  padding-top:.15em;
  padding-bottom:.35em;
+ background-color:rgb(37, 36, 36);
+ border: .2em solid white;
+ margin: 0;
 }
  
 
- #restaurant-chef{
-  margin-top: -7.2em;
+ #resteraunt-chef{
+  /* margin-top: -7.2em; */
+  background-color:rgb(37, 36, 36);
  }
 
  .text-chef-container{
@@ -467,12 +488,18 @@ text-align: center;
   color: white;
   text-align: center;
   font-size: 1.2em;
+  height: 70vh;
+  line-height: 30px;  
+ }
+
+ #chef-head {
+   font-size: 2em;
  }
 
 .text-chef-container p{
 padding-left: 15%;
 padding-right: 15%;
-padding-top: 3%;
+padding-top: 10%;
 text-align: center;
 }
 
@@ -480,13 +507,14 @@ text-align: center;
   margin: 0;
   color: white;
   background-color: rgb(37, 36, 36);
-font-size: 1.5em;
+font-size: 2em;
 text-align: center;
 height:3em;
+padding-top: .5em;
 }
 
 #art-area-img{
-  margin-top: -1.75em;
+  /* margin-top: -1.75em; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
@@ -499,17 +527,27 @@ height:3em;
   margin: 0;
   color: white;
   background-color: rgb(37, 36, 36);
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   height:2em;
+  margin: 0;
+ padding-top: .5em;
+    }
+
+
+    #gallery-area{
+   margin-bottom: 0;   
+   background-color:black
+
     }
 
 #gallery-area-img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
   }
+
 .gallery-imgs{
+  height:20em;
       width: 100%;
     }
 
@@ -560,10 +598,17 @@ height:3em;
   background-color: rgba(0, 0, 0, 0.45);
 
 }
+#resteraunt-img{
+  width:414px;
+  object-fit: cover;
 
-#restaurant-img{
-  width:455px;
 }
+
+#resteraunt-img-div {
+  border: 3px solid pink;
+}
+
+
 
 #about-head {
   margin-top: 0;
@@ -588,8 +633,11 @@ height:3em;
 
 #text-about-container p{
   margin: 0;
+  display: flex;
   padding: 30px;
   background-color: #1f1d20;
+
+
 }
 
 
@@ -598,7 +646,7 @@ header{
 }
 
 #about-text{
-  height:500px;
+  height: 500px;
 
 }
 
