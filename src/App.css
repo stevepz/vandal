@@ -1,7 +1,7 @@
 
 .landing-pg {
   background-color: black;
-  height: 1000vh;
+  height: 100vh;
 }
 
 a{
@@ -128,6 +128,7 @@ header {
   justify-items: center;
   justify-content: space-evenly;
 }
+
 
 header a {
   text-decoration: none;
@@ -389,18 +390,18 @@ font-weight: 700;
 }
 
 
-#resteraunt-about{
+#restaurant-about{
 margin: 0;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-row-gap: 0;
 }
-#resteraunt-img{
+#restaurant-img{
   width: 100%;
 }
 
 
-#resteraunt-chef{
+#restaurant-chef{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 0;
@@ -457,7 +458,7 @@ text-align: center;
 }
  
 
- #resteraunt-chef{
+ #restaurant-chef{
   margin-top: -7.2em;
  }
 
@@ -525,6 +526,13 @@ height:3em;
   }
   
 
+  .landing-pg{
+    height: 100vh;
+  }
+
+  #business-page{
+    width: 415px;
+  }
 
   #logo{
     height: 50%;
@@ -536,23 +544,25 @@ height:3em;
   }
 
 
-#resteraunt-about{
+#restaurant-about{
   display: block;
 }
 
 
+#business-image{
+  width:455px;
+}
 
 #business-img{
-  width:414px;
   object-fit: cover;
+  width:455px;
   opacity: 0.9;
   background-color: rgba(0, 0, 0, 0.45);
 
 }
 
-#resteraunt-img{
-  width:414px;
-  object-fit: cover;
+#restaurant-img{
+  width:455px;
 }
 
 #about-head {
@@ -568,7 +578,12 @@ height:3em;
   letter-spacing: 11px;
   text-align: center;
   color: #ffffff;
-  border: 2px solid salmon;
+}
+
+
+
+#business-page{
+  width: 455px;
 }
 
 #text-about-container p{
@@ -603,15 +618,16 @@ header{
 
 }
 
-#resteraunt-chef{
+#restaurant-chef{
   display: block;
 }
 
 #chef-img{
-  width: 414px;
+  width: 455px;
   height: 420px;
 
 }
+
 
 .text-chef-container p{
   background-color: #1f1d20;
@@ -650,7 +666,17 @@ header{
 }
 
 #form-h2{
-  margin: 0;
+  margin-top: 20%;
+}
+
+.menu-button-container{
+  position: absolute;
+  
+}
+
+.menu-button{
+  width: 100%;
+  
 }
 
 #form-instructions{

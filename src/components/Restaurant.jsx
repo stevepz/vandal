@@ -7,7 +7,7 @@ import Footer from './Footer';
 
 
 
-export default function Resteraunt() {
+export default function Restaurant() {
   return (
     <div>
       <Header />
@@ -20,8 +20,8 @@ export default function Resteraunt() {
           <img id="logo-img"
             src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/nav-logo.svg" alt="Logo" />
         </div>
-        <div id="resteraunt-about">
-          <img id="resteraunt-img" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/TAO1401exterior.jpg" alt="resteruant" />
+        <div id="restaurant-about">
+          <img id="restaurant-img" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/TAO1401exterior.jpg" alt="resteruant" />
           <div id="text-about-container">
             <p id="about-head" className="about">ABOUT</p>
             <p id="about-text" className="about-text">Located on Bowery, a street that dates back to the 17th century, Vandal is the latest restaurant/nightclub by the Tao Group Hospitality and Chef Chris Santos. Vandal celebrates the art, architecture, and food of global culture from New York to Vietnam to Barcelona and beyond, as well as the history and culture of the restaurant’s Lower East Side location. The two-level space includes a bar/lounge, restaurant, garden dining area, private dining room, and cellar nightclub.</p>
@@ -36,7 +36,7 @@ export default function Resteraunt() {
 
 
         </div>
-        <div id="resteraunt-chef">
+        <div id="restaurant-chef">
           <div className="text-chef-container">
             <p id="chef-head" className="about">CHRIS <br />SANTOS</p>
             <p id="chef-text" className="about-text">Inspired by street fare from around the world, VANDAL’s menu is a culmination of Chef Santos’ personal travels and reflects his signature style of multi-ethnic small plates that are ideal for tasting and sharing. The resulting menu includes nods to global street culture of locales from Chile to Thailand, Greece to Amsterdam and beyond. VANDAL’s signature dishes include Pressed New York Hot Pretzel, Grilled Sea Bass Tacos, Crispy Bao Buns, Old School Chicken Parm and VANDAL S'mores.</p>
