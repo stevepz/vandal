@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link, withRouter } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
-
+import CustomSlider from './CustomSlider';
 
 
 
@@ -47,6 +47,7 @@ export default function Resteraunt() {
         <div id="art-area">
           <p id="art-head" className="art-head">Artists</p>
           <div id="art-area-img">
+
             <img className="art-imgs" src=" https://www.vandalnewyork.com/wp-content/themes/vandal/images/icey-grape.jpg" alt="Art" />
             <img className="art-imgs" src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/hush.jpg" alt="Art" />
             <img className="art-imgs" src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/shepard-fairey.jpg" alt="Art" />
@@ -62,20 +63,24 @@ export default function Resteraunt() {
 
         <div id="gallery-area">
           <p id="gallery-head" className="gallery-head">Gallery</p>
-          <div id="gallery-area-img">
+          <CustomSlider />
+          {/* <div id="gallery-area-img">
+
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-lauramvila-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/042117-Vandal-Restaurant-Shoot-289-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-nigelbarker-for-website.jpg" alt="gallery" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-jimebozzuto-for-website.jpg" alt="gallery" />
-            {/* <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
-            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" /> */}
-          </div>
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/Screenshot-2017-06-14-11.24.47.jpg" alt="Art" />
+          </div> */}
         </div>
 
       </div>
+
       <Footer />
+
     </div>
 
   )
