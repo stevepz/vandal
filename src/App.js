@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Link, withRouter } from 'react-router-dom';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
-import Resteraunt from './components/Resteraunt';
+import Restaurant from './components/Restaurant';
 import Nightclub from './components/Nightclub';
 
 
@@ -28,8 +28,8 @@ class App extends React.Component {
         )} />
 
 
-        <Route path='/resteraunt' render={() => (
-          <Resteraunt />
+        <Route path='/restaurant' render={() => (
+          <Restaurant />
         )} />
 
         <Route path='/nightclub' render={() => (

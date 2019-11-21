@@ -10,12 +10,12 @@ export default function Welcome() {
     <div className='landing-pg'>
       <img id='vandal-logo' src={'https://www.vandalnewyork.com/wp-content/themes/vandal/images/vandal-logo.png'} alt='vandal logo' height='auto' />
       <div className='display-name'>
-        <Link to='/resteraunt'>
-          <h2 className='rest-name'>Resteraunt</h2>
+        <Link to='/restaurant'>
+          <h2 className='rest-name'>Restauraunt</h2>
         </Link>
 
         <Link to='/nightclub'>
-          <h2 className='night-name'>NightClub</h2>
+          <h2 className='night-name'>Nightclub</h2>
         </Link>
       </div>
     </div>

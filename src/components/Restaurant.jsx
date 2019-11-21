@@ -7,7 +7,7 @@ import CustomSlider from './CustomSlider';
 
 
 
-export default function Resteraunt() {
+export default function Restaurant() {
   return (
     <div>
       <Header />
@@ -38,7 +38,7 @@ export default function Resteraunt() {
 
 
         </div>
-        <div id="resteraunt-chef">
+        <div id="restaurant-chef">
           <div className="text-chef-container">
             <p id="chef-head" className="about">CHRIS <br />SANTOS</p>
             <p id="chef-text" className="about-text">Inspired by street fare from around the world, VANDAL’s menu is a culmination of Chef Santos’ personal travels and reflects his signature style of multi-ethnic small plates that are ideal for tasting and sharing. The resulting menu includes nods to global street culture of locales from Chile to Thailand, Greece to Amsterdam and beyond. VANDAL’s signature dishes include Pressed New York Hot Pretzel, Grilled Sea Bass Tacos, Crispy Bao Buns, Old School Chicken Parm and VANDAL S'mores.</p>
