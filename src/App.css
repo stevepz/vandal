@@ -115,7 +115,7 @@ header {
   vertical-align: middle;
   transform: translateY(-101px);
   animation: header 2s ease-in-out forwards;
-  z-index: .3;
+  z-index: 1;
 }
 
 #header-div {
@@ -516,16 +516,16 @@ height:3em;
   object-fit: cover;
   opacity: 0.9;
   background-color: rgba(0, 0, 0, 0.45);
+
 }
 
 #resteraunt-img{
   width:414px;
   object-fit: cover;
-
 }
 
-#about-head{
-  margin: 0;
+#about-head {
+  margin-top: 0;
   text-align:center;
   height: 36px;
   font-family: Avenir;
@@ -537,6 +537,7 @@ height:3em;
   letter-spacing: 11px;
   text-align: center;
   color: #ffffff;
+  border: 2px solid salmon;
 }
 
 #text-about-container p{
@@ -599,6 +600,10 @@ header{
 
 #headerham-div{
   display:block;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+  
 }
 
 
@@ -642,7 +647,7 @@ header{
 .bars {
   width: 40px;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin: 6px auto;
 }
 
