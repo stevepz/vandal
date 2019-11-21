@@ -29,7 +29,7 @@ export default function Nightclub() {
           {/* <button className="menu-button" href="https://www.vandalnewyork.com/dinner" >MENU</button> */}
 
           {/* <a className="menu-button" href="https://www.vandalnewyork.com/dinner" ><button className="menu-button-buttom">MENU</button></a> */}
-          <a className="menu-button" href="https://www.vandalnewyork.com/dinner">Menu</a>
+          <a className="club-menu-button" href="https://www.vandalnewyork.com/dinner">Bar Menu</a>
         </div>
 
         <NightForm />
