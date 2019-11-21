@@ -501,14 +501,24 @@ height:3em;
   font-size: 1.5em;
   text-align: center;
   height:2em;
+  margin: 0;
+ 
+    }
+
+
+    #gallery-area{
+   margin-bottom: 0;   
+   background-color:black
+
     }
 
 #gallery-area-img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
   }
+
 .gallery-imgs{
+  height:20em;
       width: 100%;
     }
 
