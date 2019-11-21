@@ -8,7 +8,7 @@ export default class CustomSlider extends Component {
       autoplaySpeed: 10000,
       autoplayScroll: 1,
       centerPadding: 40,
-      slidesPerRow: 3,
+      slidesPerRow: 4,
       slidesToShow: 1,
       dotsScroll: 1,
       className: "slider-div"
@@ -43,7 +43,15 @@ export default class CustomSlider extends Component {
           <div>
             <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/themes/vandal/images/shepard-fairey.jpg" alt="gallery" />
           </div>
-
+          <div>
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-lauramvila-for-website.jpg" alt="gallery" />
+          </div>
+          <div>
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/JLE05975-for-website.jpg" alt="gallery" />
+          </div>
+          <div>
+            <img className="gallery-imgs" src="https://www.vandalnewyork.com/wp-content/uploads/2016/02/by-nigelbarker-for-website.jpg" alt="gallery" />
+          </div>
         </Slider>
       </div >
     );
