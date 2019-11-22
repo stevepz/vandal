@@ -664,18 +664,25 @@ header{
 #chef-img{
  object-fit: cover;
  margin-top: 30%;
+ height: 484px;
 
 }
+
 
 
 
 .text-chef-container p{
   background-color: #1f1d20;
   margin:0;
-  padding-top: 11%;
+  padding-top: 12%;
   text-align: left;
 
 }
+
+#chef-text{
+  padding-bottom: 20%;
+}
+
 
 .menu-button{
   height: 69px;
@@ -685,11 +692,14 @@ header{
   font-size: 42px;
   font-weight: 900;
   padding: 5px 30px;
+  z-index: 0;
+
 }
 
 .menu-button-container{
   background-color: #1f1d20;
 }
+
 
 
 #headerham-div{
@@ -847,10 +857,21 @@ header{
 
 /* =========resizing images============ */
 
-img{
-  width: 414px;
+.gallery-imgs{
+  object-fit: cover;
+  height: 20vh;
 }
 
+#art-area-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
+
+
+#footer-div{
+  width: 100%;
+}
 
 
 }
