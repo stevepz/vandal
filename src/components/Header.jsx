@@ -37,13 +37,13 @@ export default function Header() {
           </a>
           <ul>
             <li><a href='/'>HOME</a></li>
-            <li><a href='https://www.vandalnewyork.com/reservations/'>RESERVATIONS</a></li>
-            <li><a href='https://www.vandalnewyork.com/special-events/'>EVENTS</a></li>
-            <li><a href='https://www.vandalnewyork.com/dinner/'>MENU</a></li>
+            <li><a href='/restaurant'>RESTAURANT</a></li>
             <li><a href='/nightclub'>NIGHTCLUB</a></li>
-            <li><a href='https://www.vandalnewyork.com/delivery/'>DELIVERY</a></li>
+            <li><a href='#'>EVENTS</a></li>
+            <li><a href='https://www.vandalnewyork.com/dinner/'>MENU</a></li>
+            <li><a href='#'>DELIVERY</a></li>
             <li><a href='https://www.taogroup.com/giftcards/'>GIFT CARD</a></li>
-            <li><a href='https://www.vandalnewyork.com/contact/'>CONTACT</a></li>
+            <li><a href='#'>CONTACT</a></li>
           </ul>
         </nav>
         <a href='#main-menu-toggle'
