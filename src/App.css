@@ -581,6 +581,13 @@ padding-top: .5em;
   }
 
 
+  .display-name{
+    display: block;
+    margin-top: 30%;
+    letter-spacing: 8.0px;
+  }
+
+
 
   #logo{
     margin-top:15%;
@@ -638,12 +645,12 @@ padding-top: .5em;
 
 #text-about-container p{
   margin: 0;
-  padding-top: 10%;
+  padding-top: 15%;
   background-color: #1f1d20;
   text-align: left;
-
-
 }
+
+
 
 
 header{
@@ -680,8 +687,6 @@ header{
 }
 
 
-
-
 .text-chef-container p{
   background-color: #1f1d20;
   margin:0;
@@ -691,7 +696,7 @@ header{
 }
 
 #chef-text{
-  padding-bottom: 20%;
+  padding-bottom: 40%;
 }
 
 
@@ -709,6 +714,7 @@ header{
 
 .menu-button-container{
   background-color: #1f1d20;
+  padding-top:12%;
 }
 
 
@@ -718,6 +724,12 @@ header{
   position: absolute;
   z-index: 1;
   background-color: transparent;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 8px;
   
 }
 
@@ -757,15 +769,31 @@ header{
   padding:10px;
 }
 
-#art-area{
-  margin: 0;
-}
 
 
 #art-head{
-  padding-top:50px;
+  margin: 0;
+  padding-top:20%;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 11px;
+  text-align: center;
 }
 
+
+
+#gallery-head{
+  text-align: center;
+  font-family: Avenir;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 11px;
+  text-align: center;
+}
 
 
 .menu-toggle {
@@ -814,7 +842,7 @@ header{
 
 .main-menu a {
   display: block;
-  padding: .75em 15px;
+  padding: 2em 3em;
   line-height: 1em;
   font-size: 1em;
   color:white;
@@ -891,6 +919,7 @@ header{
 #art-area-img{
   display: grid;
   grid-template-columns: 1fr 1fr ;
+  
 }
 
 
