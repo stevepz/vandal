@@ -11,7 +11,7 @@ export default function Welcome() {
       <img id='vandal-logo' src={'https://www.vandalnewyork.com/wp-content/themes/vandal/images/vandal-logo.png'} alt='vandal logo' height='auto' />
       <div className='display-name'>
         <Link to='/restaurant'>
-          <h2 className='rest-name'>Restauraunt</h2>
+          <h2 className='rest-name'>Restaurant</h2>
         </Link>
 
         <Link to='/nightclub'>
