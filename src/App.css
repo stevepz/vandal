@@ -1,8 +1,8 @@
 
 .landing-pg {
   background-color: black;
-  height: 100vh;
-  padding-left: 8%;
+  height: 150vh;
+  margin: 0 auto;
 }
 
 a{
@@ -10,8 +10,9 @@ a{
 }
 
 #vandal-logo {
-  margin-top: 120px;
-  margin-left: 50px
+  margin-top: 10%;
+
+
 }
 
 .display-name{
@@ -19,12 +20,12 @@ a{
   width: 50%;
   margin: 20%;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 40px;
-  /* box-sizing: inherit;
+  box-sizing: inherit;
   transition-property: all;
   transition-duration: .6s;
-  transition-timing-function: ease; */
+  transition-timing-function: ease;
   
 }
 
@@ -36,14 +37,18 @@ a{
   font-size: 30px
 }
 
-/* .rest-name:hover{
-  color: #A61F16
-} */
-
-
-/* .night-name:hover{
+.rest-name:hover{
   color: #A61F16;
-} */
+}
+
+
+.night-name:hover{
+  color: rgb(12, 70, 169);
+}
+
+
+
+
 .night-name:hover,
 .night-name:active {
   letter-spacing: 5px;
@@ -648,6 +653,9 @@ padding-top: .5em;
   padding-top: 15%;
   background-color: #1f1d20;
   text-align: left;
+  padding-left:10%;
+  font-size: 1.2em;
+
 }
 
 
@@ -683,6 +691,7 @@ header{
  object-fit: cover;
  margin-top: 30%;
  height: 484px;
+ padding-top: 10%;
 
 }
 
@@ -692,6 +701,9 @@ header{
   margin:0;
   padding-top: 12%;
   text-align: left;
+  padding-left:10%;
+  font-size: 1.2em;
+
 
 }
 
@@ -714,7 +726,7 @@ header{
 
 .menu-button-container{
   background-color: #1f1d20;
-  padding-top:12%;
+  padding-top:20%;
 }
 
 
@@ -926,12 +938,13 @@ header{
 #footer-div{
   background-color: #1f1d20;;
   font-size: 10px;
-  padding:20px;
+  padding:19.2px;
 }
 
 #foot-address p{
   text-align: right;
   font-size:10px;
+  padding-left:30px;
 }
 #tao p{
   text-align: center;
