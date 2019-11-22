@@ -12,7 +12,7 @@ export default function Nightclub() {
       <Header />
       <div id="business-page">
         <div id="business-image">
-          <img id="business-img"
+          <img id="night-img"
             src="https://www.vandalnewyork.com/wp-content/uploads/2016/03/TAO1424cellar_bar-2.jpg" alt="resteruant" />
         </div>
         <div id="logo">

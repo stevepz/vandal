@@ -37,7 +37,7 @@ export default function Header() {
           </a>
           <ul>
             <li><a href='/'>HOME</a></li>
-            <li><a href='#'>RESTAURANT</a></li>
+            <li><a href='/restaurant'>RESTAURANT</a></li>
             <li><a href='/nightclub'>NIGHTCLUB</a></li>
             <li><a href='#'>EVENTS</a></li>
             <li><a href='https://www.vandalnewyork.com/dinner/'>MENU</a></li>
